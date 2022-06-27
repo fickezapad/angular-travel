@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "travel-agency-3b924": {
+      "hosting": {
+        "angular-travel": [
+          "travel-agency-3b924"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "travel-agency-3b924"
+  }
+}

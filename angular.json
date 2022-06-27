@@ -98,6 +98,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "angular-travel:build:production",
+            "firebaseProject": "travel-agency-3b924",
+            "firebaseHostingSite": "travel-agency-3b924"
+          }
         }
       }
     }
