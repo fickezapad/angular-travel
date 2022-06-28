@@ -22,14 +22,14 @@ const routes: Routes = [
   {path:'register', component: RegisterComponent},
   {path:'verify-email', component : VerifyEmailComponent},
   {path:'forgot-password', component : ForgotPasswordComponent},
-  {path:'book-section', component: BookSectionComponent},
-  {path:'brand-section', component: BrandSectionComponent},
-  {path:'contact-section', component: ContactSectionComponent},
-  {path:'galery-section', component : GalerySectionComponent},
+  {path:'book', component: BookSectionComponent},
+  {path:'brands', component: BrandSectionComponent},
+  {path:'contacts', component: ContactSectionComponent},
+  {path:'galery', component : GalerySectionComponent},
   {path:'home', component : HomeComponent},
-  {path:'review-section', component: ReviewSectionComponent},
-  {path:'services-section', component : ServicesSectionComponent},
-  {path:'package-section', component : PackageSectionComponent},
+  {path:'reviews', component: ReviewSectionComponent},
+  {path:'services', component : ServicesSectionComponent},
+  {path:'packages', component : PackageSectionComponent},
 ];
 
 @NgModule({
